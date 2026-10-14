@@ -1,0 +1,20 @@
+* { -webkit-user-select: none; -webkit-user-drag: none; cursor: default; box-sizing: border-box; }
+:root { color-scheme: light dark; --bg: #f2f2f7; --card: #fff; --text: #111; --muted: #6e6e73; --accent: #ff3b30; }
+@media (prefers-color-scheme: dark) { :root { --bg: #000; --card: #1c1c1e; --text: #f2f2f7; --muted: #8e8e93; } }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); }
+body { font: -apple-system-body; -webkit-font-smoothing: antialiased; }
+main { max-width: 520px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 36px) 20px calc(env(safe-area-inset-bottom) + 32px); text-align: center; }
+.icon { border-radius: 22px; box-shadow: 0 8px 24px rgba(255,59,48,.25); }
+h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.02em; margin: 14px 0 6px; }
+.lead { color: var(--muted); margin: 0 0 22px; line-height: 1.45; }
+.en { display: block; font-size: 0.85em; color: var(--muted); font-weight: 400; }
+.card { background: var(--card); border-radius: 18px; padding: 18px 18px 16px; text-align: left; margin-bottom: 14px; }
+.card h2 { font-size: 17px; margin: 0 0 10px; }
+.card ol { margin: 0; padding-left: 22px; line-height: 1.5; }
+.card li { margin-bottom: 8px; }
+.card li .en { margin-top: 1px; }
+button { display: block; width: 100%; margin-top: 12px; padding: 13px; border: 0; border-radius: 12px; background: var(--accent); color: #fff; font: inherit; font-weight: 700; }
+button:active { opacity: .7; }
+.note { font-size: 13px; color: var(--muted); line-height: 1.45; margin-top: 18px; }
+
+a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-weight: inherit; }

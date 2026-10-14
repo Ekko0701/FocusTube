@@ -1,0 +1,339 @@
+category	option_id	label_en	label_ko	control	desktop_rules	mobile_rules
+appearance	untrap_appearance_color	Base Color	기본 색상	color	0	0
+appearance	untrap_appearance_font	Font	폰트	enum	0	0
+appearance	untrap_appearance_primary_bg_color	Primary Background Color	기본 배경색	color	0	0
+channel	untrap_channel_grayscale_channel_banner	Grayscale Banner	그레이스케일 배너	boolean	1	1
+channel	untrap_channel_hide_button_join	Hide 'Join' Button	'가입' 버튼 숨기기	boolean	1	0
+channel	untrap_channel_hide_button_purchase	Hide 'Purchase' Button	'구매' 버튼 숨기기	boolean	1	0
+channel	untrap_channel_hide_button_subscribe	Hide 'Subscribe' Button	'구독' 버튼 숨기기	boolean	1	1
+channel	untrap_channel_hide_buttons_play_all	Hide 'Play All' Buttons	'모두 재생' 버튼 숨기기	boolean	1	0
+channel	untrap_channel_hide_channel_banner	Hide Banner	배너 숨기기	boolean	1	1
+channel	untrap_channel_hide_channel_id	Hide Channel ID	채널 ID 숨기기	boolean	2	2
+channel	untrap_channel_hide_channel_menu_button_channels	Hide 'Channels' Button	'채널' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_button_community	Hide 'Community' Button	'커뮤니티' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_button_home	Hide 'Home' Button	'홈' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_button_live	Hide 'Live' Button	'라이브' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_button_playlists	Hide 'Playlists' Button	'재생목록' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_button_podcasts	Hide 'Podcasts' Button	'팟캐스트' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_button_releases	Hide 'Releases' Button	'릴리스' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_button_search	Hide 'Search' Button	'검색' 버튼 숨기기	boolean	1	1
+channel	untrap_channel_hide_channel_menu_button_shorts	Hide 'Shorts' Button	'Shorts' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_button_store	Hide 'Store' Button	'스토어' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_button_videos	Hide 'Videos' Button	'동영상' 버튼 숨기기	boolean	0	0
+channel	untrap_channel_hide_channel_menu_buttons_row	Hide Entire Menu	전체 메뉴 숨기기	boolean	1	1
+channel	untrap_channel_hide_channel_name	Hide Channel Name	채널 이름 숨기기	boolean	1	1
+channel	untrap_channel_hide_channel_name_badge	Hide 'Verified' Badge	'인증된' 배지 숨기기	boolean	1	1
+channel	untrap_channel_hide_channel_subscribers_counter	Hide Subscribers Count	구독자 수 숨기기	boolean	2	2
+channel	untrap_channel_hide_channel_videos_counter	Hide Videos Count	동영상 개수 숨기기	boolean	2	2
+channel	untrap_channel_hide_home_tab_section_featured_channels	Hide 'Featured' Section	'추천' 섹션 숨기기	boolean	2	1
+channel	untrap_channel_hide_home_tab_section_for_you	Hide 'For You' Section	'For You' 섹션 숨기기	boolean	1	1
+channel	untrap_channel_hide_home_tab_section_live	Hide 'Live' Section	'라이브' 섹션 숨기기	boolean	1	1
+channel	untrap_channel_hide_home_tab_section_our_members	Hide 'Our Members' Section	'우리 회원' 섹션 숨기기	boolean	1	0
+channel	untrap_channel_hide_home_tab_section_playlist	Hide 'Playlist' Section	'재생목록' 섹션 숨기기	boolean	1	1
+channel	untrap_channel_hide_home_tab_section_popular_videos	Hide 'Popular Videos' Section	'인기 동영상' 섹션 숨기기	boolean	1	1
+channel	untrap_channel_hide_home_tab_section_releases	Hide 'Releases' Section	'릴리스' 섹션 숨기기	boolean	1	1
+channel	untrap_channel_hide_home_tab_section_shorts	Hide 'Shorts' Section	Hide 'Shorts' Section	boolean	1	1
+channel	untrap_channel_hide_home_tab_section_videos	Hide 'Videos' Section	'동영상' 섹션 숨기기	boolean	1	1
+channel	untrap_channel_hide_links	Hide Links	링크 숨기기	boolean	1	1
+channel	untrap_channel_hide_tagline	Hide Channel Tagline	채널 태그라인 숨기기	boolean	1	1
+channel	untrap_channel_page_grayscale_channel_avatar	Grayscale Channel Avatar	그레이스케일 채널 아바타	boolean	1	1
+channel	untrap_channel_page_hide_channel_avatar	Hide Channel Avatar	채널 아바타 숨기기	boolean	1	1
+embed	untrap_embed_hide_button_action_dots	Hide 'Actions' Button	'작업' 버튼 숨기기	boolean	1	0
+embed	untrap_embed_hide_button_more_from	Hide 'More from' Button	'더 보기' 버튼 숨기기	boolean	1	0
+embed	untrap_embed_hide_button_share	Hide 'Share' Button	'공유' 버튼 숨기기	boolean	1	0
+embed	untrap_embed_hide_end_screen_infos	Hide Cards in the Video End	비디오 끝에서 카드 숨기기	boolean	1	0
+embed	untrap_embed_hide_end_screen_suggestions	Hide Suggestions in the Video End	비디오 끝에서 제안 숨기기	boolean	1	0
+embed	untrap_embed_hide_shadow_around_player_bar	Hide Video Player Bar Gradient Shadow	비디오 플레이어 막대 그라데이션 그림자 숨기기	boolean	1	0
+embed	untrap_embed_hide_top_shadow	Hide Top Gradient Shadow	상단 그라데이션 그림자 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_button_youtube	Hide 'YouTube' Button	'YouTube' 버튼 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_channel_avatar	Hide Channel Avatar	채널 아바타 숨기기	boolean	2	0
+embed	untrap_embed_player_hide_full_screen_button	Hide 'Full Screen' Button	'전체 화면' 버튼 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_pause_recommenndations	Hide Recommendations on Pause	일시 중지 시 권장 사항 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_play_pause_button	Hide 'Play / Pause / Replay' Button	'재생/일시정지/재생' 버튼 숨기기	boolean	3	0
+embed	untrap_embed_player_hide_settings_button	Hide 'Settings' Button	'설정' 버튼 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_subtitles_button	Hide 'Captions' Button	'캡션' 버튼 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_video_time	Hide Video Time	비디오 시간 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_video_title	Hide Video Title	비디오 제목 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_video_watermark	Hide Watermark	워터마크 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_volume_button	Hide 'Volume' Button	'볼륨' 버튼 숨기기	boolean	1	0
+embed	untrap_embed_player_hide_watch_on_youtube_button	Hide 'Watch on YouTube' Button	'YouTube에서 보기' 버튼 숨기기	boolean	1	0
+global	untrap_global_add_summarize_button	untrap_global_add_summarize_button	untrap_global_add_summarize_button	boolean	1	1
+global	untrap_global_disable_video_autoplay	untrap_global_disable_video_autoplay	untrap_global_disable_video_autoplay	boolean	5	0
+global	untrap_global_enable	untrap_global_enable		boolean	0	0
+global	untrap_global_hide_all_ads	untrap_global_hide_all_ads	untrap_global_hide_all_ads	boolean	5	3
+global	untrap_global_hide_all_shorts	untrap_global_hide_all_shorts		boolean	5	4
+global	untrap_global_hide_pop_ups	untrap_global_hide_pop_ups	팝업 숨기기	boolean	1	1
+global	untrap_global_show_native_video_player	untrap_global_show_native_video_player		boolean	11	14
+global	untrap_global_skip_video_ads	untrap_global_skip_video_ads	untrap_global_skip_video_ads	boolean	0	0
+global	untrap_global_video_quality	untrap_global_video_quality	비디오 품질	scalar	0	0
+header	untrap_header_disable_logo_link	Disable Logo Link	로고 링크 비활성화	boolean	1	1
+header	untrap_header_grayscale_logo	Grayscale Logo	그레이스케일 로고	boolean	0	1
+header	untrap_header_hide_button_sign_in	Hide 'Sign In' Button	'로그인' 버튼 숨기기	boolean	1	0
+header	untrap_header_hide_create_button	Hide 'Create' Button	'만들기' 버튼 숨기기	boolean	1	0
+header	untrap_header_hide_filter_button	Hide 'Filter' Button	'필터' 버튼 숨기기	boolean	0	1
+header	untrap_header_hide_logo	Hide Logo	로고 숨기기	boolean	1	1
+header	untrap_header_hide_logo_country_code	Hide Logo Country Code	로고 국가 코드 숨기기	boolean	1	0
+header	untrap_header_hide_logo_wordmark	Hide Word in Logo	로고에 단어 숨기기	boolean	1	1
+header	untrap_header_hide_menu_button	Hide 'Menu' Button	'메뉴' 버튼 숨기기	boolean	0	2
+header	untrap_header_hide_notifications_bell	Hide 'Notifications' Button	'알림' 버튼 숨기기	boolean	1	0
+header	untrap_header_hide_notifications_counter	Hide Notifications Count	알림 수 숨기기	boolean	1	0
+header	untrap_header_hide_search_bar	Hide Search Bar	검색창 숨기기	boolean	1	0
+header	untrap_header_hide_sidebar_burger	Hide 'Burger' Button	'버거' 버튼 숨기기	boolean	1	0
+header	untrap_header_hide_top_header	Hide Header	헤더 숨기기	boolean	1	1
+header	untrap_header_hide_upload_button	Hide 'Upload' Button	'업로드' 버튼 숨기기	boolean	1	0
+header	untrap_header_hide_voice_search_button	Hide 'Voice Search' Button	'음성검색' 버튼 숨기기	boolean	1	1
+header	untrap_header_logo_color	Logo Color	로고 색상	enum	3	0
+header	untrap_header_mobile_hide_search_button	Hide 'Search' Button	'검색' 버튼 숨기기	boolean	0	1
+hide	untrap_hide_video_card_author_name	Hide Channel Name	채널 이름 숨기기	boolean	4	6
+hide	untrap_hide_video_card_badges	Hide 'New, 4K, CC' Badges	'신규, 4K, CC' 배지 숨기기	boolean	2	2
+hide	untrap_hide_video_card_chapters	Hide Chapters	챕터 숨기기	boolean	1	0
+hide	untrap_hide_video_card_description	Hide Description	설명 숨기기	boolean	3	0
+hide	untrap_hide_video_card_fundraiser_badges	Hide 'Fundraiser' Badges	'Fundraiser' 배지 숨기기	boolean	1	0
+hide	untrap_hide_video_card_grayscale_author_avatar	Grayscale Channel Avatar	그레이스케일 채널 아바타	boolean	3	4
+hide	untrap_hide_video_card_hide_author_avatar	Hide Channel Avatar	채널 아바타 숨기기	boolean	2	6
+hide	untrap_hide_video_card_live_badges	Hide 'Live, Premiere' Badges	'라이브, 프리미어' 배지 숨기기	boolean	7	3
+hide	untrap_hide_video_card_verified_badges	Hide 'Verified' Badges	'인증된' 배지 숨기기	boolean	4	0
+home	untrap_home_disable_infinity_scroll	Disable infinite scrolling	무한 스크롤 비활성화	boolean	1	1
+home	untrap_home_hide_ads_first_slot	Hide Ads in Suggestions	제안에서 광고 숨기기	boolean	2	0
+home	untrap_home_hide_banners_ads_with_close	Hide Banners - New to you, Premium, Survey, etc.	배너 숨기기 - 새로운 기능, 프리미엄, 설문조사 등	boolean	6	1
+home	untrap_home_hide_header_with_categories	Hide Suggestions Categories	제안 카테고리 숨기기	boolean	1	1
+home	untrap_home_hide_shorts_row	Hide Shorts Row	Shorts 행 숨기기	boolean	1	0
+home	untrap_home_hide_suggestion_mixes	Hide Playlists and Mixes	재생 목록 및 믹스 숨기기	boolean	1	1
+home	untrap_home_hide_suggestions	Hide Suggestions	제안 숨기기	boolean	2	2
+home	untrap_home_hide_trending_etc	Hide Breaking News, Trending and etc.	속보, 인기 급상승 등 숨기기	boolean	1	0
+home	untrap_home_hide_watched_videos	Hide Watched Videos	시청한 동영상 숨기기	boolean	1	1
+home	untrap_home_mobile_hide_explore_button	Hide Explore Button	탐색 버튼 숨기기	boolean	0	1
+home	untrap_home_suggestions_columns_count	Columns	Columns	enum	16	0
+home	untrap_home_suggestions_rows_count	Rows	행	enum	4	0
+metrics	untrap_metrics_hide_comments_count	Hide Comments Count	댓글 수 숨기기	boolean	3	3
+metrics	untrap_metrics_hide_time_since_video_published	Hide Published Time	게시 시간 숨기기	boolean	8	5
+metrics	untrap_metrics_hide_views	Hide Views Count	조회수 숨기기	boolean	9	6
+redirect	untrap_redirect_channel_to	Start Page on Channel is	채널의 시작 페이지는 다음과 같습니다.	enum	0	0
+redirect	untrap_redirect_home_to	Home Page is	홈 페이지는 다음과 같습니다.	enum	2	0
+redirect	untrap_redirect_shorts_to_exclude_player	Redirect Shorts to Normal Player	Shorts를 일반 플레이어로 리디렉션	boolean	0	0
+search	untrap_search_bar_hide_previous_searches	Hide Previous Searches	이전 검색 숨기기	boolean	1	1
+search	untrap_search_bar_hide_suggestions	Hide Search Suggestions	검색 제안 숨기기	boolean	1	1
+search	untrap_search_hide_ads_promoted_videos	Hide Promoted Videos	프로모션 동영상 숨기기	boolean	1	0
+search	untrap_search_hide_ads_promoted_websites	Hide Promoted Websites	프로모션된 웹사이트 숨기기	boolean	3	1
+search	untrap_search_hide_ads_suggested_products	Hide Suggested Products	추천 제품 숨기기	boolean	1	0
+search	untrap_search_hide_results_channels	Hide Channels	채널 숨기기	boolean	1	1
+search	untrap_search_hide_results_for_you	Hide For You, Trending, etc	Hide For You, 인기 급상승 등	boolean	1	0
+search	untrap_search_hide_results_mixes	Hide Mixes	믹스 숨기기	boolean	1	0
+search	untrap_search_hide_results_people_also_search	Hide 'People Also Search For'	'다른 사용자가 검색하는 항목' 숨기기	boolean	1	0
+search	untrap_search_hide_results_playlists	Hide Playlists	재생목록 숨기기	boolean	1	2
+search	untrap_search_hide_results_shorts	Hide Shorts	Shorts 숨기기	boolean	2	4
+search	untrap_search_hide_watched_videos	Hide Watched Videos	시청한 동영상 숨기기	boolean	1	1
+search	untrap_search_page_disable_infinite_scrolling	Disable Infinite Results Scrolling	무한 결과 스크롤 비활성화	boolean	1	0
+search	untrap_search_page_hide_about_these_results	Hide 'About These Results' Button	'이 결과 정보' 버튼 숨기기	boolean	1	0
+search	untrap_search_page_hide_filters	Hide 'Filters' Button	'필터' 버튼 숨기기	boolean	1	0
+search	untrap_search_page_hide_right_sidebar	Hide Right Sidebar	오른쪽 사이드바 숨기기	boolean	1	0
+search	untrap_search_page_hide_search_categories	Hide Search Categories	검색 카테고리 숨기기	boolean	1	0
+search	untrap_search_page_sort_by	Sort Results by	결과 정렬 기준	enum	0	0
+shorts	untrap_shorts_page_disable_exclude_scrolling	Disable Scrolling	스크롤 비활성화	boolean	3	0
+shorts	untrap_shorts_page_hide_channel_exclude_avatar	Hide Channel Avatar	채널 아바타 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_channel_user_exclude_name	Hide Channel Username	채널 사용자 이름 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_comments_exclude_button	Hide 'Comments' Button	'댓글' 버튼 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_comments_exclude_count	Hide Comments Count	댓글 수 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_dislike_exclude_button	Hide 'Dislike' Button	'좋아요' 버튼 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_dislike_share_exclude_labels	Hide Dislike and Share Labels	싫어요 및 공유 라벨 숨기기	boolean	2	2
+shorts	untrap_shorts_page_hide_exclude_description	Hide Description	설명 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_like_exclude_button	Hide 'Like' Button	'좋아요' 버튼 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_likes_exclude_count	Hide Likes Count	좋아요 수 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_more_exclude_button	Hide 'More' Button	'더보기' 버튼 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_mute_exclude_button	Hide 'Mute' Button	'음소거' 버튼 숨기기	boolean	1	0
+shorts	untrap_shorts_page_hide_play_exclude_button	Hide 'Play' Button	'재생' 버튼 숨기기	boolean	1	0
+shorts	untrap_shorts_page_hide_share_exclude_button	Hide 'Share' Button	'공유' 버튼 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_sound_exclude_button	Hide 'Sound' Button	'소리' 버튼 숨기기	boolean	1	1
+shorts	untrap_shorts_page_hide_subscribe_exclude_button	Hide 'Subscribe' Button	'구독' 버튼 숨기기	boolean	1	1
+sidebar	untrap_sidebar_auto_collapse_sidebar	Auto Collapse Sidebar	자동 축소 사이드바	boolean	0	0
+sidebar	untrap_sidebar_auto_expand_playlists	Auto Expand Playlists	자동 확장 재생목록	boolean	0	0
+sidebar	untrap_sidebar_auto_expand_subscriptions	Auto Expand Subscriptions	구독 자동 확장	boolean	0	0
+sidebar	untrap_sidebar_explore_hide_explore_title	Hide 'Explore' Title	'탐색' 제목 숨기기	boolean	1	0
+sidebar	untrap_sidebar_explore_hide_gaming_buttton	Hide 'Gaming' Button	'게임' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_explore_hide_learning_buttton	Hide 'Learning' Button	'학습' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_explore_hide_live_buttton	Hide 'Live' Button	'라이브' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_explore_hide_movies_buttton	Hide 'Movies' Button	'영화' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_explore_hide_music_buttton	Hide 'Music' Button	'음악' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_explore_hide_news_buttton	Hide 'News' Button	'뉴스' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_explore_hide_podcasts_buttton	Hide 'Podcasts' Button	'팟캐스트' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_explore_hide_sports_buttton	Hide 'Sports' Button	'스포츠' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_explore_hide_trending_buttton	Hide 'Trending' Button	'인기 급상승' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_grayscale_subscriptions_icons	Grayscale Subscriptions Avatars	그레이스케일 구독 아바타	boolean	2	0
+sidebar	untrap_sidebar_helper_buttons_hide_feedback_button	Hide 'Send Feedback' Button	'의견 보내기' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_helper_buttons_hide_help_button	Hide 'Help' Button	'도움말' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_helper_buttons_hide_report_history_button	Hide 'Report History' Button	'신고 내역' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_helper_buttons_hide_settings_button	Hide 'Settings' Button	'설정' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_all_subscriptions_button	Hide 'All Subscriptions' Button	'모든 구독' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_browse_channels	Hide 'Browse Channels' Button	'채널 찾아보기' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_downloads	Hide 'Downloads' Button	'다운로드' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_history	Hide 'History' Button	'기록' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_home	Hide 'Home' Button	'홈' 버튼 숨기기	boolean	2	1
+sidebar	untrap_sidebar_hide_button_icons	Hide Buttons Icons	버튼 아이콘 숨기기	boolean	2	0
+sidebar	untrap_sidebar_hide_button_library	Hide 'You / Library' Button	'당신/도서관' 버튼 숨기기	boolean	0	2
+sidebar	untrap_sidebar_hide_button_liked_videos	Hide 'Liked Videos' Button	'좋아요 표시한 동영상' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_playlists	Hide 'Playlists' Button	'재생목록' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_shorts	Hide 'Shorts' Button	'Shorts' 버튼 숨기기	boolean	2	1
+sidebar	untrap_sidebar_hide_button_subscriptions	Hide 'Subscriptions' Button	'구독' 버튼 숨기기	boolean	2	1
+sidebar	untrap_sidebar_hide_button_watch_later	Hide 'Watch Later' Button	'나중에 보기' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_you	Hide 'You' Button	'당신' 버튼 숨기기	boolean	2	0
+sidebar	untrap_sidebar_hide_button_your_channel	Hide 'Your Channel' Button	'내 채널' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_your_clips	Hide 'Your Clips' Button	'내 클립' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_your_movies	Hide 'Your Movies' Button	'내 영화' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_your_videos	Hide 'Your Videos' Button	'내 동영상' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_button_youtube_music	Hide 'YouTube Music' Button	'YouTube Music' 버튼 숨기기	boolean	2	0
+sidebar	untrap_sidebar_hide_entire_sidebar	Hide Entire Sidebar	전체 사이드바 숨기기	boolean	6	1
+sidebar	untrap_sidebar_hide_home_section	Hide 'Home' Section	'홈' 섹션 숨기기	boolean	2	0
+sidebar	untrap_sidebar_hide_library_button_show_more	Hide 'Show More / Show Less' Button	'더 보기/간략히 보기' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_section_explore	Hide 'Explore' Section	'탐색' 섹션 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_section_footer	Hide 'Footer' Section	'바닥글' 섹션 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_section_helper_buttons	Hide 'Auxiliary Buttons' Section	'보조 버튼' 섹션 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_section_library	Hide 'Library' Section	'라이브러리' 섹션 숨기기	boolean	2	0
+sidebar	untrap_sidebar_hide_section_more_from_youtube	Hide 'More From YouTube' Section	'YouTube 정보 더보기' 섹션 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_section_sign_in	Hide 'Sign In' Section	'로그인' 섹션 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_section_subscriptions	Hide 'Subscriptions' Section	'구독' 섹션 숨기기	boolean	2	0
+sidebar	untrap_sidebar_hide_subscriptionns_live_icon	Hide Subscriptions Live Icon	구독 라이브 아이콘 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_subscriptionns_notifications_dots	Hide Subscriptions Notifications Dots	구독 알림 점 숨기기	boolean	1	0
+sidebar	untrap_sidebar_hide_subscriptions_button_show_more	Hide 'Show More / Show Less' Button	'더 보기/간략히 보기' 버튼 숨기기	boolean	4	0
+sidebar	untrap_sidebar_hide_subscriptions_icons	Hide Subscriptions Avatars	구독 아바타 숨기기	boolean	2	0
+sidebar	untrap_sidebar_more_section_hide_kids_button	Hide 'Kids' Button	'어린이' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_more_section_hide_music_button	Hide 'Music' Button	'음악' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_more_section_hide_premium_button	Hide 'Premium' Button	'프리미엄' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_more_section_hide_studio_button	Hide 'Studio' Button	'스튜디오' 버튼 숨기기	boolean	1	0
+sidebar	untrap_sidebar_more_section_hide_title	Hide 'More From YouTube' Title	'YouTube 콘텐츠 더보기' 제목 숨기기	boolean	1	0
+sidebar	untrap_sidebar_subscriptions_hide_title	Hide 'Subscriptions' Title	'구독' 제목 숨기기	boolean	2	0
+subscriptions	untrap_subscriptions_grayscale_channels_list	Grayscale Subscriptions List	그레이스케일 구독 목록	boolean	0	1
+subscriptions	untrap_subscriptions_hide_channels_list	Hide Subscriptions List	구독 목록 숨기기	boolean	0	1
+subscriptions	untrap_subscriptions_hide_live_videos	Hide Live and Premiere Videos	라이브 및 프리미어 비디오 숨기기	boolean	1	1
+subscriptions	untrap_subscriptions_hide_shorts	Hide Shorts	Shorts 숨기기	boolean	2	2
+subscriptions	untrap_subscriptions_hide_subscriptions_live_dots	Hide Subscriptions Live Dots	구독 라이브 도트 숨기기	boolean	0	1
+subscriptions	untrap_subscriptions_hide_subscriptions_notifications_dots	Hide Subscriptions Notifications Dots	구독 알림 점 숨기기	boolean	0	1
+subscriptions	untrap_subscriptions_hide_upcoming_videos	Hide Upcoming Videos	다가오는 비디오 숨기기	boolean	5	1
+subscriptions	untrap_subscriptions_hide_watched_videos	Hide Watched Videos	시청한 동영상 숨기기	boolean	1	1
+untrap.runtime.managed	untrap.runtime.managed	Managed UnTrap runtime	Managed UnTrap runtime	boolean	0	0
+video	untrap_video_card_blur_thumbnail	Blur Thumbnail	블러 썸네일	enum	0	0
+video	untrap_video_card_disable_play_on_hover	Disable Play on Hover	마우스 오버 시 재생 비활성화	boolean	2	0
+video	untrap_video_card_display_full_title	Display Full Title	전체 제목 표시	boolean	3	2
+video	untrap_video_card_grayscale_thumbnail	Shade of Gray for Thumbnails	썸네일용 회색 음영	enum	0	0
+video	untrap_video_card_hide_includes_paid_promotion	Hide 'Includes Paid Promotion'	'유료 프로모션 포함' 숨기기	boolean	1	1
+video	untrap_video_card_hide_menu_button	Hide 'Menu' Button	'메뉴' 버튼 숨기기	boolean	2	2
+video	untrap_video_card_hide_thumbnail	Hide Thumbnail	썸네일 숨기기	boolean	36	32
+video	untrap_video_card_hide_title	Hide Title	제목 숨기기	boolean	4	3
+video	untrap_video_card_hide_video_duration	Hide Video Duration	비디오 지속 시간 숨기기	boolean	2	2
+video	untrap_video_card_mirror_thumbnail	Flip Thumbnail Horizontally	썸네일을 수평으로 뒤집기	boolean	5	5
+video	untrap_video_card_opacity_thumbnail	Thumbnail Transparency	썸네일 투명도	enum	0	0
+video	untrap_video_card_remove_corner_radius	Remove Corner Radius	코너 반경 제거	boolean	6	3
+video	untrap_video_card_replace_thumbnail	Replace Thumbnail	썸네일 바꾸기	enum	0	0
+video	untrap_video_card_title_case	Title Text Case	제목 텍스트 대소문자	enum	4	4
+video	untrap_video_page_Grayscale_creator_avatar	Grayscale Channel Avatar	그레이스케일 채널 아바타	boolean	0	0
+video	untrap_video_page_auto_expand_description	Auto Expand Description	자동 확장 설명	boolean	0	0
+video	untrap_video_page_auto_shows_chapters_in_sidebar	Automatically Show Chapters	자동으로 챕터 표시	boolean	1	0
+video	untrap_video_page_auto_theater_mode	Auto Theater Mode	자동 극장 모드	boolean	0	0
+video	untrap_video_page_center_content	Centering Content	콘텐츠 중심 맞추기	boolean	6	0
+video	untrap_video_page_description_hide_about_button	Hide 'About' Button	'정보' 버튼 숨기기	boolean	1	0
+video	untrap_video_page_description_hide_channel_info	Hide Channel Info	채널 정보 숨기기	boolean	1	0
+video	untrap_video_page_description_hide_transcript_block	Hide Transcript Block	성적 기록 블록 숨기기	boolean	1	0
+video	untrap_video_page_description_hide_videos_button	Hide 'Videos' Button	'동영상' 버튼 숨기기	boolean	1	0
+video	untrap_video_page_disable_autoplay	Disable Autoplay	자동재생 비활성화	boolean	0	0
+video	untrap_video_page_disable_like_animation	Disable Like Animation	Like 애니메이션 비활성화	boolean	2	0
+video	untrap_video_page_fixed_sidebar	Fixed Sidebar	고정 사이드바	boolean	1	0
+video	untrap_video_page_grayscale_comments_profile_pictures	Grayscale Comment Avatar	그레이스케일 코멘트 아바타	boolean	1	2
+video	untrap_video_page_grayscale_creator_avatar	Grayscale Channel Avatar	그레이스케일 채널 아바타	boolean	0	3
+video	untrap_video_page_grayscale_video_player	Grayscale Video	그레이스케일 비디오	boolean	1	1
+video	untrap_video_page_hide_all_buttons_under_player	Hide Buttons Under Player	플레이어 아래 버튼 숨기기	boolean	3	2
+video	untrap_video_page_hide_badge_fundraiser	Hide 'Fundraiser' Badge	'Fundraiser' 배지 숨기기	boolean	1	1
+video	untrap_video_page_hide_badge_verified	Hide 'Verified' Badge	'인증된' 배지 숨기기	boolean	1	0
+video	untrap_video_page_hide_button_clip	Hide 'Clip' Button	'클립' 버튼 숨기기	boolean	1	0
+video	untrap_video_page_hide_button_download	Hide 'Download' Button	'다운로드' 버튼 숨기기	boolean	1	0
+video	untrap_video_page_hide_button_join	Hide 'Join' Button	'가입' 버튼 숨기기	boolean	1	0
+video	untrap_video_page_hide_button_like_dislike	Hide 'Like / Dislike' Button	'좋아요/싫어요' 버튼 숨기기	boolean	1	2
+video	untrap_video_page_hide_button_more	Hide 'More' Button	'더보기' 버튼 숨기기	boolean	1	0
+video	untrap_video_page_hide_button_report	Hide 'Report' Button	'신고' 버튼 숨기기	boolean	0	1
+video	untrap_video_page_hide_button_save	Hide 'Save' Button	'저장' 버튼 숨기기	boolean	1	1
+video	untrap_video_page_hide_button_share	Hide 'Share' Button	'공유' 버튼 숨기기	boolean	1	1
+video	untrap_video_page_hide_button_subscribe	Hide 'Subscribe' Button	'구독' 버튼 숨기기	boolean	1	1
+video	untrap_video_page_hide_button_thanks	Hide 'Thanks' Button	'감사합니다' 버튼 숨기기	boolean	1	0
+video	untrap_video_page_hide_comment_action_buttons	Hide Comment Action Buttons	댓글 작업 버튼 숨기기	boolean	0	1
+video	untrap_video_page_hide_comment_add_textfield	Hide 'Add Comment' Textfield	'댓글 추가' 텍스트 필드 숨기기	boolean	2	1
+video	untrap_video_page_hide_comment_button_dislike	Hide 'Dislike' Comment Button	'좋아요' 댓글 버튼 숨기기	boolean	1	0
+video	untrap_video_page_hide_comment_button_like	Hide 'Like' Comment Button	'좋아요' 댓글 버튼 숨기기	boolean	1	0
+video	untrap_video_page_hide_comment_button_reply	Hide 'Reply' Comment Button	'답장' 댓글 버튼 숨기기	boolean	1	0
+video	untrap_video_page_hide_comment_creator_heart	Hide Like from the Video Creator	동영상 제작자의 좋아요 숨기기	boolean	1	0
+video	untrap_video_page_hide_comment_likes_count	Hide Likes Count of Comment	좋아요 수 숨기기 댓글 수	boolean	1	1
+video	untrap_video_page_hide_comment_teaser	Hide Comment Teaser	댓글 티저 숨기기	boolean	1	0
+video	untrap_video_page_hide_comments	Hide Comments	댓글 숨기기	boolean	4	3
+video	untrap_video_page_hide_comments_profile_pictures	Hide Comment Avatar	댓글 아바타 숨기기	boolean	2	2
+video	untrap_video_page_hide_comments_published_time	Hide Comment Published Time	댓글 게시 시간 숨기기	boolean	1	1
+video	untrap_video_page_hide_comments_replies	Hide Comment Replies	댓글 답글 숨기기	boolean	1	2
+video	untrap_video_page_hide_comments_replies_count	Hide Comment Replies Count	댓글 응답 수 숨기기	boolean	0	1
+video	untrap_video_page_hide_comments_sort_button	Hide Comments Sort Button	댓글 정렬 버튼 숨기기	boolean	2	0
+video	untrap_video_page_hide_comments_usernames	Hide Comment Username	댓글 사용자 이름 숨기기	boolean	2	1
+video	untrap_video_page_hide_creator_avatar	Hide Channel Avatar	채널 아바타 숨기기	boolean	2	3
+video	untrap_video_page_hide_creator_subscribers_counter	Hide Channel Subscribers Count	채널 구독자 수 숨기기	boolean	3	2
+video	untrap_video_page_hide_creator_username	Hide Channel Name	채널 이름 숨기기	boolean	2	3
+video	untrap_video_page_hide_description	Hide Description	설명 숨기기	boolean	1	0
+video	untrap_video_page_hide_doctor_license	Hide Doctor License	의사 자격증 숨기기	boolean	1	0
+video	untrap_video_page_hide_fundraiser	Hide Fundraiser	모금행사 숨기기	boolean	1	0
+video	untrap_video_page_hide_includes_paid_promotion	Hide 'Includes Paid Promotion'	'유료 프로모션 포함' 숨기기	boolean	1	1
+video	untrap_video_page_hide_live_chat	Hide Live Chat	실시간 채팅 숨기기	boolean	2	0
+video	untrap_video_page_hide_merch_shelf	Hide Merch, Tickets, Offers	상품, 티켓, 제안 숨기기	boolean	3	0
+video	untrap_video_page_hide_metadata_row	Hide Info Row - License, Suggested by UMG, Parental warning, etc	정보 행 숨기기 - 라이선스, UMG에서 제안, 보호자 경고 등	boolean	1	0
+video	untrap_video_page_hide_playlist_panel	Hide Playlist	재생목록 숨기기	boolean	1	0
+video	untrap_video_page_hide_related_categories	Hide Categories of Related Videos	관련 동영상 카테고리 숨기기	boolean	1	0
+video	untrap_video_page_hide_related_playlists	Hide Playlists and Mixes in Related Videos	관련 동영상에서 재생 목록 및 믹스 숨기기	boolean	1	1
+video	untrap_video_page_hide_related_videos	Hide Related Videos	관련 동영상 숨기기	boolean	3	2
+video	untrap_video_page_hide_related_watched_videos	Hide Watched Related Videos	시청한 관련 동영상 숨기기	boolean	1	1
+video	untrap_video_page_hide_shorts_from_sidebar	Hide Shorts	Shorts 숨기기	boolean	2	3
+video	untrap_video_page_hide_shorts_in_description	Hide Shorts in Description	설명에서 Shorts 숨기기	boolean	1	1
+video	untrap_video_page_hide_suggestions_ads	Hide Sidebar Advertisement	사이드바 광고 숨기기	boolean	3	0
+video	untrap_video_page_hide_video_description_hashtags	Hide Video Hashtags	비디오 해시태그 숨기기	boolean	2	2
+video	untrap_video_page_hide_video_likes_counter	Hide Video Likes Count	동영상 좋아요 수 숨기기	boolean	2	2
+video	untrap_video_page_hide_video_published_time	Hide Video Published Time	비디오 게시 시간 숨기기	boolean	1	0
+video	untrap_video_page_hide_video_show_more_button	Hide 'Show Description' Button	'설명 표시' 버튼 숨기기	boolean	0	2
+video	untrap_video_page_hide_video_title	Hide Video Title	비디오 제목 숨기기	boolean	1	2
+video	untrap_video_page_hide_video_views_and_published	Hide Video Views and Published Time	비디오 조회수 및 게시 시간 숨기기	boolean	0	2
+video	untrap_video_page_hide_video_views_counter	Hide Video Views Count	비디오 조회수 숨기기	boolean	3	0
+video	untrap_video_page_minimal_description	Minimal Description (Views and Date)	최소한의 설명(조회수 및 날짜)	boolean	5	0
+video	untrap_video_page_mobile_hide_ads_under_video_player	Hide Advertisement Under the Video Player	비디오 플레이어 아래에 광고 숨기기	boolean	0	2
+video	untrap_video_page_panels_max_height	Max Heights Panels	최대 높이 패널	boolean	1	0
+video	untrap_video_page_sidebar_disable_infinite_scrolling	Disable Infinite Related Videos Scrolling	무한 관련 동영상 스크롤 비활성화	boolean	1	0
+video	untrap_video_player_hide_airplay_button	Hide 'AirPlay' Button	'AirPlay' 버튼 숨기기	boolean	1	0
+video	untrap_video_player_hide_autoplay_button	Hide 'Autoplay' Button	'자동재생' 버튼 숨기기	boolean	1	1
+video	untrap_video_player_hide_chapters_button	Hide 'Chapters' Button	'챕터' 버튼 숨기기	boolean	1	1
+video	untrap_video_player_hide_end_screen_infos	Hide Cards in the Video End	비디오 끝에서 카드 숨기기	boolean	1	0
+video	untrap_video_player_hide_end_screen_suggestions	Hide Suggestions in the Video End	비디오 끝에서 제안 숨기기	boolean	1	0
+video	untrap_video_player_hide_full_screen_button	Hide 'Full Screen' Button	'전체 화면' 버튼 숨기기	boolean	1	1
+video	untrap_video_player_hide_miniplayer_button	Hide 'Mini Player' Button	'미니 플레이어' 버튼 숨기기	boolean	2	0
+video	untrap_video_player_hide_more_from_button	Hide 'More from this Channel' Button	'이 채널의 콘텐츠 더보기' 버튼 숨기기	boolean	1	0
+video	untrap_video_player_hide_most_replayed_on_hover	Hide the Graph of the Most Viewed Scenes	가장 많이 본 장면의 그래프 숨기기	boolean	1	0
+video	untrap_video_player_hide_play_next_button	Hide 'Play Next' Button	'다음 재생' 버튼 숨기기	boolean	1	1
+video	untrap_video_player_hide_play_pause_button	Hide 'Play / Pause' Button	'재생/일시 정지' 버튼 숨기기	boolean	2	0
+video	untrap_video_player_hide_play_previous_button	Hide 'Play Previous' Button	'이전 재생' 버튼 숨기기	boolean	0	1
+video	untrap_video_player_hide_replay_button	Hide 'Replay' Button	'다시보기' 버튼 숨기기	boolean	1	0
+video	untrap_video_player_hide_settings_button	Hide 'Settings' Button	'설정' 버튼 숨기기	boolean	1	1
+video	untrap_video_player_hide_shadow_around_player_bar	Hide Video Player Bar Gradient Shadow	비디오 플레이어 막대 그라데이션 그림자 숨기기	boolean	1	0
+video	untrap_video_player_hide_subtitles_button	Hide 'Captions' Button	'캡션' 버튼 숨기기	boolean	1	0
+video	untrap_video_player_hide_theater_mode_button	Hide 'Theater Mode' Button	'극장 모드' 버튼 숨기기	boolean	1	0
+video	untrap_video_player_hide_video_time	Hide Video Time	비디오 시간 숨기기	boolean	1	1
+video	untrap_video_player_hide_video_watermark	Hide Watermark	워터마크 숨기기	boolean	1	0
+video	untrap_video_player_hide_volume_button	Hide 'Volume' Button	'볼륨' 버튼 숨기기	boolean	1	0
+video	untrap_video_player_remove_corner_radius	Remove Corner Radius	코너 반경 제거	boolean	1	0
+you	untrap_you_page_hide_account_avatar	Hide Avatar	아바타 숨기기	boolean	0	1
+you	untrap_you_page_hide_all_sections	Hide Sections	섹션 숨기기	boolean	0	2
+you	untrap_you_page_hide_button_feedback	Hide 'Feedback' Button	'피드백' 버튼 숨기기	boolean	0	2
+you	untrap_you_page_hide_button_help	Hide 'Help' Button	'도움말' 버튼 숨기기	boolean	0	2
+you	untrap_you_page_hide_button_premium	Hide 'Get YouTube Premium' Button	'YouTube Premium 가입' 버튼 숨기기	boolean	0	2
+you	untrap_you_page_hide_channel_id	Hide Channel ID	채널 ID 숨기기	boolean	0	2
+you	untrap_you_page_hide_channel_name	Hide Channel Name	채널 이름 숨기기	boolean	0	1
+you	untrap_you_page_hide_footer_buttons	Hide Buttons	버튼 숨기기	boolean	0	1
+you	untrap_you_page_hide_google_account_button	Hide 'Google Account' Button	'Google 계정' 버튼 숨기기	boolean	0	1
+you	untrap_you_page_hide_my_info	Hide My Info	내 정보 숨기기	boolean	0	1
+you	untrap_you_page_hide_section_history	Hide 'History' Section	'기록' 섹션 숨기기	boolean	1	2
+you	untrap_you_page_hide_section_liked_videos	Hide 'Liked Videos' Section	'좋아요 표시한 동영상' 섹션 숨기기	boolean	1	0
+you	untrap_you_page_hide_section_playlists	Hide 'Playlists' Section	'재생 목록' 섹션 숨기기	boolean	1	2
+you	untrap_you_page_hide_section_watch_later	Hide 'Watch Later' Section	'나중에 보기' 섹션 숨기기	boolean	1	0
+you	untrap_you_page_hide_section_your_clips	Hide 'Your Clips' Section	'내 클립' 섹션 숨기기	boolean	1	0
+you	untrap_you_page_hide_section_your_movies	Hide 'Your Movies' Button	'내 영화' 버튼 숨기기	boolean	0	1
+you	untrap_you_page_hide_section_your_videos	Hide 'Your Videos' Button	'내 동영상' 버튼 숨기기	boolean	0	2
+you	untrap_you_page_hide_switch_account_button	Hide 'Switch Account' Button	'계정 전환' 버튼 숨기기	boolean	0	2
+you	untrap_you_page_hide_view_channel_button	Hide 'View Channel' Button	'채널 보기' 버튼 숨기기	boolean	0	2
+you	untrap_you_page_hide_your_avatar	Hide Your Avatar	아바타 숨기기	boolean	1	0

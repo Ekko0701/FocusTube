@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>FocusTube</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo"></span>
+      <div>
+        <div class="name">FocusTube</div>
+        <div class="sub" data-i18n="tagline"></div>
+      </div>
+    </div>
+    <label class="switch master" title="Master switch">
+      <input type="checkbox" id="master">
+      <span class="track"></span>
+    </label>
+  </header>
+
+  <section id="lock" class="lock hidden">
+    <div class="lock-card">
+      <div class="lock-icon"></div>
+      <h2 data-i18n="lockTitle"></h2>
+      <p data-i18n="lockHint"></p>
+      <input id="lock-pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="8" autocomplete="off">
+      <button id="lock-btn" class="primary" data-i18n="unlock"></button>
+      <p id="lock-error" class="error hidden" data-i18n="wrongPin"></p>
+    </div>
+  </section>
+
+  <nav class="tabs" id="tabs">
+    <button data-tab="hide" class="active" data-i18n="tabHide"></button>
+    <button data-tab="filters" data-i18n="tabFilters"></button>
+    <button data-tab="focus" data-i18n="tabFocus"></button>
+    <button data-tab="presets" data-i18n="tabPresets"></button>
+    <button data-tab="more" data-i18n="tabMore"></button>
+  </nav>
+
+  <main id="main">
+    <div class="tab active" data-tab="hide" id="tab-hide"></div>
+
+    <div class="tab" data-tab="filters" id="tab-filters">
+      <p class="hint" data-i18n="filtersHint"></p>
+      <div class="row-inline">
+        <select id="rule-type">
+          <option value="keyword" data-i18n="ruleKeyword"></option>
+          <option value="channel" data-i18n="ruleChannel"></option>
+          <option value="regex" data-i18n="ruleRegex"></option>
+        </select>
+        <select id="rule-scope">
+          <option value="both" data-i18n="scopeBoth"></option>
+          <option value="videos" data-i18n="scopeVideos"></option>
+          <option value="comments" data-i18n="scopeComments"></option>
+        </select>
+      </div>
+      <div class="row-inline">
+        <input id="rule-value" type="text" autocapitalize="off" autocomplete="off" data-i18n-ph="rulePlaceholder">
+        <button id="rule-add" class="primary small" data-i18n="add"></button>
+      </div>
+      <ul id="rule-list" class="list"></ul>
+      <div class="group">
+        <div class="item"><span data-i18n="filterComments"></span><label class="switch"><input type="checkbox" data-key="filterComments"><span class="track"></span></label></div>
+      </div>
+    </div>
+
+    <div class="tab" data-tab="focus" id="tab-focus">
+      <h3 data-i18n="blockNow"></h3>
+      <div id="block-status" class="status hidden"></div>
+      <div class="chips">
+        <button data-min="25">25m</button>
+        <button data-min="60">1h</button>
+        <button data-min="240">4h</button>
+        <button data-min="custom" data-i18n="custom"></button>
+      </div>
+      <div id="custom-block" class="row-inline hidden">
+        <input id="custom-min" type="number" min="1" max="1440" inputmode="numeric" data-i18n-ph="minutes">
+        <button id="custom-start" class="primary small" data-i18n="start"></button>
+      </div>
+      <button id="block-stop" class="danger hidden" data-i18n="stopBlock"></button>
+
+      <h3 data-i18n="schedules"></h3>
+      <ul id="schedule-list" class="list"></ul>
+      <button id="schedule-add" class="secondary" data-i18n="addSchedule"></button>
+
+      <h3 data-i18n="blockOptions"></h3>
+      <div class="group">
+        <div class="item col"><span data-i18n="blockMessage"></span><input type="text" data-key="blockMessage" data-i18n-ph="blockMessagePh"></div>
+        <div class="item col"><span data-i18n="blockRedirect"></span><input type="url" data-key="blockRedirectUrl" placeholder="https://" autocapitalize="off"></div>
+      </div>
+
+      <h3 data-i18n="delay"></h3>
+      <div class="group">
+        <div class="item"><span data-i18n="delaySeconds"></span>
+          <select data-key="delaySeconds">
+            <option value="0" data-i18n="off"></option>
+            <option value="5">5s</option><option value="10">10s</option><option value="15">15s</option>
+            <option value="30">30s</option><option value="60">60s</option>
+          </select>
+        </div>
+        <div class="item"><span data-i18n="delayOnce"></span><label class="switch"><input type="checkbox" data-key="delayOncePerSession"><span class="track"></span></label></div>
+      </div>
+    </div>
+
+    <div class="tab" data-tab="presets" id="tab-presets">
+      <p class="hint" data-i18n="presetsHint"></p>
+      <div id="preset-list" class="presets"></div>
+      <h3 data-i18n="customPresets"></h3>
+      <div class="row-inline">
+        <input id="preset-name" type="text" data-i18n-ph="presetName" autocomplete="off">
+        <button id="preset-save" class="primary small" data-i18n="saveCurrent"></button>
+      </div>
+      <ul id="custom-preset-list" class="list"></ul>
+    </div>
+
+    <div class="tab" data-tab="more" id="tab-more">
+      <h3 data-i18n="security"></h3>
+      <div class="group">
+        <div class="item col">
+          <span id="pin-state"></span>
+          <div class="row-inline">
+            <input id="pin-input" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="8" data-i18n-ph="pinPh" autocomplete="off">
+            <button id="pin-set" class="primary small" data-i18n="setPin"></button>
+            <button id="pin-clear" class="danger small hidden" data-i18n="removePin"></button>
+          </div>
+        </div>
+      </div>
+      <h3 data-i18n="backup"></h3>
+      <div class="group">
+        <div class="item col">
+          <textarea id="io-text" rows="4" spellcheck="false" autocapitalize="off"></textarea>
+          <div class="row-inline">
+            <button id="io-export" class="secondary small" data-i18n="exportBtn"></button>
+            <button id="io-copy" class="secondary small" data-i18n="copy"></button>
+            <button id="io-import" class="primary small" data-i18n="importBtn"></button>
+          </div>
+          <p id="io-msg" class="hint"></p>
+        </div>
+      </div>
+      <h3 data-i18n="reset"></h3>
+      <button id="reset-all" class="danger" data-i18n="resetAll"></button>
+      <p class="hint" data-i18n="about"></p>
+    </div>
+  </main>
+
+  <script src="../shared/defaults.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

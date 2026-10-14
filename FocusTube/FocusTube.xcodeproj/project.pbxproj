@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4609877D307F403900A5FC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609877C307F403900A5FC75 /* AppDelegate.swift */; };
+		46098781307F403900A5FC75 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4609877F307F403900A5FC75 /* Main.html */; };
+		46098783307F403900A5FC75 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46098782307F403900A5FC75 /* Icon.png */; };
+		46098785307F403900A5FC75 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 46098784307F403900A5FC75 /* Style.css */; };
+		46098785307F403900A5FC90 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 46098784307F403900A5FC91 /* Script.js */; };
+		46098787307F403900A5FC75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46098786307F403900A5FC75 /* SceneDelegate.swift */; };
+		46098789307F403900A5FC75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46098788307F403900A5FC75 /* ViewController.swift */; };
+		4609878C307F403900A5FC75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4609878A307F403900A5FC75 /* LaunchScreen.storyboard */; };
+		4609878F307F403900A5FC75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4609878D307F403900A5FC75 /* Main.storyboard */; };
+		46098797307F403B00A5FC75 /* FocusTube Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 46098796307F403B00A5FC75 /* FocusTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4609879C307F403B00A5FC75 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4609879B307F403B00A5FC75 /* SafariWebExtensionHandler.swift */; };
+		4609879E307F403B00A5FC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46098790307F403A00A5FC75 /* Assets.xcassets */; };
+		460987AF307F403B00A5FC75 /* popup in Resources */ = {isa = PBXBuildFile; fileRef = 460987A9307F403B00A5FC75 /* popup */; };
+		460987B0307F403B00A5FC75 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 460987AA307F403B00A5FC75 /* background.js */; };
+		460987B1307F403B00A5FC75 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 460987AB307F403B00A5FC75 /* images */; };
+		460987B2307F403B00A5FC75 /* content in Resources */ = {isa = PBXBuildFile; fileRef = 460987AC307F403B00A5FC75 /* content */; };
+		460987B3307F403B00A5FC75 /* shared in Resources */ = {isa = PBXBuildFile; fileRef = 460987AD307F403B00A5FC75 /* shared */; };
+		460987B4307F403B00A5FC75 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 460987AE307F403B00A5FC75 /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46098798307F403B00A5FC75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46098771307F403900A5FC75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46098795307F403B00A5FC75;
+			remoteInfo = "FocusTube Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		460987A4307F403B00A5FC75 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				46098797307F403B00A5FC75 /* FocusTube Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46098779307F403900A5FC75 /* FocusTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4609877C307F403900A5FC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46098780307F403900A5FC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		46098782307F403900A5FC75 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		46098784307F403900A5FC75 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		46098784307F403900A5FC91 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		46098786307F403900A5FC75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46098788307F403900A5FC75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4609878B307F403900A5FC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4609878E307F403900A5FC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46098790307F403A00A5FC75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46098791307F403B00A5FC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46098796307F403B00A5FC75 /* FocusTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FocusTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4609879B307F403B00A5FC75 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		4609879D307F403B00A5FC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460987A9307F403B00A5FC75 /* popup */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popup; path = Resources/popup; sourceTree = "<group>"; };
+		460987AA307F403B00A5FC75 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		460987AB307F403B00A5FC75 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		460987AC307F403B00A5FC75 /* content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = content; path = Resources/content; sourceTree = "<group>"; };
+		460987AD307F403B00A5FC75 /* shared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shared; path = Resources/shared; sourceTree = "<group>"; };
+		460987AE307F403B00A5FC75 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46098776307F403900A5FC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		46098793307F403B00A5FC75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46098770307F403900A5FC75 = {
+			isa = PBXGroup;
+			children = (
+				4609877B307F403900A5FC75 /* FocusTube */,
+				4609879A307F403B00A5FC75 /* FocusTube Extension */,
+				4609877A307F403900A5FC75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4609877A307F403900A5FC75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46098779307F403900A5FC75 /* FocusTube.app */,
+				46098796307F403B00A5FC75 /* FocusTube Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4609877B307F403900A5FC75 /* FocusTube */ = {
+			isa = PBXGroup;
+			children = (
+				4609877C307F403900A5FC75 /* AppDelegate.swift */,
+				46098786307F403900A5FC75 /* SceneDelegate.swift */,
+				46098788307F403900A5FC75 /* ViewController.swift */,
+				4609878A307F403900A5FC75 /* LaunchScreen.storyboard */,
+				4609878D307F403900A5FC75 /* Main.storyboard */,
+				46098790307F403A00A5FC75 /* Assets.xcassets */,
+				46098791307F403B00A5FC75 /* Info.plist */,
+				4609877E307F403900A5FC75 /* Resources */,
+			);
+			path = FocusTube;
+			sourceTree = "<group>";
+		};
+		4609877E307F403900A5FC75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4609877F307F403900A5FC75 /* Main.html */,
+				46098782307F403900A5FC75 /* Icon.png */,
+				46098784307F403900A5FC75 /* Style.css */,
+				46098784307F403900A5FC91 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4609879A307F403B00A5FC75 /* FocusTube Extension */ = {
+			isa = PBXGroup;
+			children = (
+				460987A8307F403B00A5FC75 /* Resources */,
+				4609879B307F403B00A5FC75 /* SafariWebExtensionHandler.swift */,
+				4609879D307F403B00A5FC75 /* Info.plist */,
+			);
+			path = "FocusTube Extension";
+			sourceTree = "<group>";
+		};
+		460987A8307F403B00A5FC75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				460987A9307F403B00A5FC75 /* popup */,
+				460987AA307F403B00A5FC75 /* background.js */,
+				460987AB307F403B00A5FC75 /* images */,
+				460987AC307F403B00A5FC75 /* content */,
+				460987AD307F403B00A5FC75 /* shared */,
+				460987AE307F403B00A5FC75 /* manifest.json */,
+			);
+			name = Resources;
+			path = "FocusTube Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46098778307F403900A5FC75 /* FocusTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460987A5307F403B00A5FC75 /* Build configuration list for PBXNativeTarget "FocusTube" */;
+			buildPhases = (
+				46098775307F403900A5FC75 /* Sources */,
+				46098776307F403900A5FC75 /* Frameworks */,
+				46098777307F403900A5FC75 /* Resources */,
+				460987A4307F403B00A5FC75 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46098799307F403B00A5FC75 /* PBXTargetDependency */,
+			);
+			name = FocusTube;
+			productName = FocusTube;
+			productReference = 46098779307F403900A5FC75 /* FocusTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46098795307F403B00A5FC75 /* FocusTube Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460987A1307F403B00A5FC75 /* Build configuration list for PBXNativeTarget "FocusTube Extension" */;
+			buildPhases = (
+				46098792307F403B00A5FC75 /* Sources */,
+				46098793307F403B00A5FC75 /* Frameworks */,
+				46098794307F403B00A5FC75 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "FocusTube Extension";
+			productName = "FocusTube Extension";
+			productReference = 46098796307F403B00A5FC75 /* FocusTube Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46098771307F403900A5FC75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					46098778307F403900A5FC75 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					46098795307F403B00A5FC75 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 46098774307F403900A5FC75 /* Build configuration list for PBXProject "FocusTube" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46098770307F403900A5FC75;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4609877A307F403900A5FC75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46098778307F403900A5FC75 /* FocusTube */,
+				46098795307F403B00A5FC75 /* FocusTube Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46098777307F403900A5FC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				46098783307F403900A5FC75 /* Icon.png in Resources */,
+				4609878F307F403900A5FC75 /* Main.storyboard in Resources */,
+				4609878C307F403900A5FC75 /* LaunchScreen.storyboard in Resources */,
+				46098781307F403900A5FC75 /* Main.html in Resources */,
+				4609879E307F403B00A5FC75 /* Assets.xcassets in Resources */,
+				46098785307F403900A5FC75 /* Style.css in Resources */,
+				46098785307F403900A5FC90 /* Script.js in Resources */,
+			);
+		};
+		46098794307F403B00A5FC75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				460987B3307F403B00A5FC75 /* shared in Resources */,
+				460987B1307F403B00A5FC75 /* images in Resources */,
+				460987B0307F403B00A5FC75 /* background.js in Resources */,
+				460987B2307F403B00A5FC75 /* content in Resources */,
+				460987B4307F403B00A5FC75 /* manifest.json in Resources */,
+				460987AF307F403B00A5FC75 /* popup in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46098775307F403900A5FC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				46098789307F403900A5FC75 /* ViewController.swift in Sources */,
+				4609877D307F403900A5FC75 /* AppDelegate.swift in Sources */,
+				46098787307F403900A5FC75 /* SceneDelegate.swift in Sources */,
+			);
+		};
+		46098792307F403B00A5FC75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				4609879C307F403B00A5FC75 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46098799307F403B00A5FC75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46098795307F403B00A5FC75 /* FocusTube Extension */;
+			targetProxy = 46098798307F403B00A5FC75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4609877F307F403900A5FC75 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46098780307F403900A5FC75 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		4609878A307F403900A5FC75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4609878B307F403900A5FC75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4609878D307F403900A5FC75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4609878E307F403900A5FC75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4609879F307F403B00A5FC75 /* Debug configuration for PBXProject "FocusTube" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		460987A0307F403B00A5FC75 /* Release configuration for PBXProject "FocusTube" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460987A2307F403B00A5FC75 /* Debug configuration for PBXNativeTarget "FocusTube Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FocusTube Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FocusTube Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimdongjoo.focustube.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460987A3307F403B00A5FC75 /* Release configuration for PBXNativeTarget "FocusTube Extension" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FocusTube Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FocusTube Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimdongjoo.focustube.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		460987A6307F403B00A5FC75 /* Debug configuration for PBXNativeTarget "FocusTube" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusTube/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusTube;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimdongjoo.focustube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460987A7307F403B00A5FC75 /* Release configuration for PBXNativeTarget "FocusTube" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FocusTube/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FocusTube;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimdongjoo.focustube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46098774307F403900A5FC75 /* Build configuration list for PBXProject "FocusTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4609879F307F403B00A5FC75 /* Debug configuration for PBXProject "FocusTube" */,
+				460987A0307F403B00A5FC75 /* Release configuration for PBXProject "FocusTube" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		460987A1307F403B00A5FC75 /* Build configuration list for PBXNativeTarget "FocusTube Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460987A2307F403B00A5FC75 /* Debug configuration for PBXNativeTarget "FocusTube Extension" */,
+				460987A3307F403B00A5FC75 /* Release configuration for PBXNativeTarget "FocusTube Extension" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		460987A5307F403B00A5FC75 /* Build configuration list for PBXNativeTarget "FocusTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460987A6307F403B00A5FC75 /* Debug configuration for PBXNativeTarget "FocusTube" */,
+				460987A7307F403B00A5FC75 /* Release configuration for PBXNativeTarget "FocusTube" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46098771307F403900A5FC75 /* Project object */;
+	validationLevel = 1;
+}

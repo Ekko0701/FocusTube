@@ -1,0 +1,286 @@
+/* FocusTube — static rules keyed on <html data-ft-*> attributes set by content.js.
+   Loaded at document_start so there is no flash of hidden content. */
+
+/* ---------- Shorts everywhere ---------- */
+html[data-ft-hide-shorts] ytd-rich-shelf-renderer[is-shorts],
+html[data-ft-hide-shorts] ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+html[data-ft-hide-shorts] ytd-reel-shelf-renderer,
+html[data-ft-hide-shorts] ytd-rich-section-renderer:has(a[href^="/shorts/"]),
+html[data-ft-hide-shorts] ytd-item-section-renderer:has(> #contents > ytd-reel-shelf-renderer:only-child),
+html[data-ft-hide-shorts] ytd-rich-item-renderer:has(a[href^="/shorts/"]),
+html[data-ft-hide-shorts] ytd-video-renderer:has(a[href^="/shorts/"]),
+html[data-ft-hide-shorts] ytd-grid-video-renderer:has(a[href^="/shorts/"]),
+html[data-ft-hide-shorts] ytd-compact-video-renderer:has(a[href^="/shorts/"]),
+html[data-ft-hide-shorts] ytd-guide-entry-renderer:has(a[title="Shorts"]),
+html[data-ft-hide-shorts] ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+html[data-ft-hide-shorts] ytd-notification-renderer:has(a[href^="/shorts/"]),
+html[data-ft-hide-shorts] ytm-reel-shelf-renderer,
+html[data-ft-hide-shorts] ytm-rich-section-renderer:has(ytm-reel-shelf-renderer),
+html[data-ft-hide-shorts] ytm-rich-item-renderer:has(a[href^="/shorts/"]),
+html[data-ft-hide-shorts] ytm-video-with-context-renderer:has(a[href^="/shorts/"]),
+html[data-ft-hide-shorts] ytm-compact-video-renderer:has(a[href^="/shorts/"]),
+html[data-ft-hide-shorts] grid-shelf-view-model:has(ytm-shorts-lockup-view-model),
+html[data-ft-hide-shorts] grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2),
+html[data-ft-hide-shorts] ytm-item-section-renderer:has(> lazy-list > grid-shelf-view-model:has(a[href^="/shorts/"])),
+html[data-ft-hide-shorts] ytd-item-section-renderer:has(> #contents > grid-shelf-view-model:only-child:has(a[href^="/shorts/"])),
+html[data-ft-hide-shorts] grid-shelf-view-model:has(ytd-shorts-lockup-view-model),
+html[data-ft-hide-shorts] ytm-shorts-lockup-view-model,
+html[data-ft-hide-shorts] ytm-shorts-lockup-view-model-v2,
+html[data-ft-hide-shorts] ytm-pivot-bar-item-renderer:has(a[href^="/shorts"]),
+html[data-ft-hide-shorts] ytm-pivot-bar-item-renderer:has(.pivot-shorts),
+html[data-ft-hide-shorts] [data-ft-shorts-tab] {
+  display: none !important;
+}
+
+/* ---------- Top bar / navigation ---------- */
+html[data-ft-hide-notifications] ytd-notification-topbar-button-renderer,
+html[data-ft-hide-notifications] ytm-notification-topbar-button-renderer,
+html[data-ft-hide-notifications] button[aria-label="Notifications"],
+html[data-ft-hide-notifications] a[aria-label="Notifications"] { display: none !important; }
+
+html[data-ft-hide-create-button] ytd-masthead ytd-topbar-menu-button-renderer:has(button[aria-label="Create"]),
+html[data-ft-hide-create-button] ytd-masthead ytd-button-renderer:has(a[href="/upload"]),
+html[data-ft-hide-create-button] ytd-masthead ytd-button-renderer:has(button[aria-label="Create"]),
+html[data-ft-hide-create-button] ytm-pivot-bar-item-renderer:has(.pivot-upload),
+html[data-ft-hide-create-button] ytm-pivot-bar-item-renderer:has([aria-label="Create"]),
+html[data-ft-hide-create-button] ytm-pivot-bar-item-renderer:has(button[aria-label="Create"]) { display: none !important; }
+
+html[data-ft-hide-sidebar] #guide,
+html[data-ft-hide-sidebar] tp-yt-app-drawer#guide,
+html[data-ft-hide-sidebar] ytd-mini-guide-renderer,
+html[data-ft-hide-sidebar] #guide-button,
+html[data-ft-hide-sidebar] ytd-masthead #guide-button { display: none !important; }
+html[data-ft-hide-sidebar] ytd-page-manager#page-manager { margin-left: 0 !important; }
+
+html[data-ft-hide-explore-trending] ytd-guide-entry-renderer:has(a[href="/feed/trending"]),
+html[data-ft-hide-explore-trending] ytd-guide-entry-renderer:has(a[href="/feed/explore"]),
+html[data-ft-hide-explore-trending] ytd-guide-section-renderer:has(a[href="/feed/trending"]),
+html[data-ft-hide-explore-trending] ytd-mini-guide-entry-renderer:has(a[href="/feed/explore"]),
+html[data-ft-hide-explore-trending] ytm-pivot-bar-item-renderer:has(a[href^="/feed/explore"]),
+html[data-ft-hide-explore-trending] ytm-pivot-bar-item-renderer:has(a[href^="/feed/trending"]),
+html[data-ft-hide-explore-trending] ytm-pivot-bar-item-renderer:has(.pivot-explore) { display: none !important; }
+
+html[data-ft-hide-chips] ytd-feed-filter-chip-bar-renderer,
+html[data-ft-hide-chips] #chips-wrapper,
+html[data-ft-hide-chips] ytd-watch-flexy #related ytd-feed-filter-chip-bar-renderer,
+html[data-ft-hide-chips] ytm-chip-cloud-renderer,
+html[data-ft-hide-chips] ytm-feed-filter-chip-bar-renderer,
+html[data-ft-hide-chips] ytm-chip-bar-renderer { display: none !important; }
+
+/* ---------- Ads & promos ---------- */
+html[data-ft-hide-ads] #masthead-ad,
+html[data-ft-hide-ads] #player-ads,
+html[data-ft-hide-ads] ytd-ad-slot-renderer,
+html[data-ft-hide-ads] ytd-rich-item-renderer:has(ytd-ad-slot-renderer),
+html[data-ft-hide-ads] yt-lockup-view-model:has(ad-badge-view-model),
+html[data-ft-hide-ads] yt-lockup-view-model:has(feed-ad-metadata-view-model),
+html[data-ft-hide-ads] ytd-rich-item-renderer:has(ad-badge-view-model),
+html[data-ft-hide-ads] ytm-rich-item-renderer:has(ad-badge-view-model),
+html[data-ft-hide-ads] ytm-video-with-context-renderer:has(ad-badge-view-model),
+html[data-ft-hide-ads] ytd-display-ad-renderer,
+html[data-ft-hide-ads] ytd-in-feed-ad-layout-renderer,
+html[data-ft-hide-ads] ytd-promoted-sparkles-web-renderer,
+html[data-ft-hide-ads] ytd-promoted-sparkles-text-search-renderer,
+html[data-ft-hide-ads] ad-slot-renderer,
+html[data-ft-hide-ads] ytd-promoted-video-renderer,
+html[data-ft-hide-ads] ytd-banner-promo-renderer,
+html[data-ft-hide-ads] ytd-statement-banner-renderer,
+html[data-ft-hide-ads] ytd-brand-video-shelf-renderer,
+html[data-ft-hide-ads] ytd-brand-video-singleton-renderer,
+html[data-ft-hide-ads] ytd-mealbar-promo-renderer,
+html[data-ft-hide-ads] yt-mealbar-promo-renderer,
+html[data-ft-hide-ads] ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"],
+html[data-ft-hide-ads] ytm-promoted-video-renderer,
+html[data-ft-hide-ads] ytm-promoted-sparkles-web-renderer,
+html[data-ft-hide-ads] ytm-ad-slot-renderer,
+html[data-ft-hide-ads] ytm-companion-slot,
+html[data-ft-hide-ads] ytm-companion-ad-renderer,
+html[data-ft-hide-ads] ytm-rich-item-renderer:has(ytm-ad-slot-renderer),
+html[data-ft-hide-ads] ytm-item-section-renderer:has(> * > ytm-promoted-video-renderer:only-child),
+html[data-ft-hide-ads] .ytp-ad-overlay-container,
+html[data-ft-hide-ads] .ytp-ad-image-overlay,
+html[data-ft-hide-ads] .ytd-mealbar-promo-renderer { display: none !important; }
+
+/* ---------- Thumbnails ---------- */
+html[data-ft-thumbnails="grayscale"] ytd-thumbnail img,
+html[data-ft-thumbnails="grayscale"] yt-image img,
+html[data-ft-thumbnails="grayscale"] ytm-thumbnail-cover img,
+html[data-ft-thumbnails="grayscale"] .video-thumbnail-img,
+html[data-ft-thumbnails="grayscale"] yt-thumbnail-view-model img,
+html[data-ft-thumbnails="grayscale"] ytd-playlist-thumbnail img { filter: grayscale(1) !important; }
+
+html[data-ft-thumbnails="blur"] ytd-thumbnail img,
+html[data-ft-thumbnails="blur"] yt-image img,
+html[data-ft-thumbnails="blur"] ytm-thumbnail-cover img,
+html[data-ft-thumbnails="blur"] .video-thumbnail-img,
+html[data-ft-thumbnails="blur"] yt-thumbnail-view-model img,
+html[data-ft-thumbnails="blur"] ytd-playlist-thumbnail img { filter: blur(14px) grayscale(0.4) !important; }
+
+html[data-ft-thumbnails="hidden"] ytd-thumbnail img,
+html[data-ft-thumbnails="hidden"] yt-image img,
+html[data-ft-thumbnails="hidden"] ytm-thumbnail-cover img,
+html[data-ft-thumbnails="hidden"] .video-thumbnail-img,
+html[data-ft-thumbnails="hidden"] yt-thumbnail-view-model img,
+html[data-ft-thumbnails="hidden"] ytd-playlist-thumbnail img,
+html[data-ft-thumbnails="hidden"] ytd-thumbnail #mouseover-overlay,
+html[data-ft-thumbnails="hidden"] ytd-moving-thumbnail-renderer { visibility: hidden !important; }
+
+/* ---------- Metadata ---------- */
+html[data-ft-hide-view-counts] ytd-video-meta-block #metadata-line,
+html[data-ft-hide-view-counts] ytd-watch-info-text,
+html[data-ft-hide-view-counts] #info-container ytd-watch-info-text,
+html[data-ft-hide-view-counts] ytm-video-with-context-renderer .media-item-metadata .ytm-badge-and-byline-renderer:last-child,
+html[data-ft-hide-view-counts] yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRow:not(:first-child),
+html[data-ft-hide-view-counts] .view-count,
+html[data-ft-hide-view-counts] ytm-slim-video-metadata-renderer .slim-video-information { display: none !important; }
+
+html[data-ft-hide-durations] ytd-thumbnail-overlay-time-status-renderer,
+html[data-ft-hide-durations] ytm-thumbnail-overlay-time-status-renderer,
+html[data-ft-hide-durations] yt-thumbnail-overlay-badge-view-model,
+html[data-ft-hide-durations] .ytThumbnailBottomOverlayViewModelBadge,
+html[data-ft-hide-durations] .ytInlinePlayerControlsTimeDisplay,
+html[data-ft-hide-durations] .ytm-thumbnail-overlay-time-status-renderer { display: none !important; }
+
+html[data-ft-hide-watched] ytd-rich-item-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer),
+html[data-ft-hide-watched] ytd-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer),
+html[data-ft-hide-watched] ytd-grid-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer),
+html[data-ft-hide-watched] ytd-compact-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer),
+html[data-ft-hide-watched] ytd-rich-item-renderer:has(.yt-thumbnail-overlay-progress-bar-view-model),
+html[data-ft-hide-watched] ytm-rich-item-renderer:has(ytm-thumbnail-overlay-resume-playback-renderer),
+html[data-ft-hide-watched] ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-resume-playback-renderer) { display: none !important; }
+
+/* ---------- Home ---------- */
+html[data-ft-home="hideFeed"][data-ft-page="home"] ytd-browse[page-subtype="home"] ytd-rich-grid-renderer,
+html[data-ft-home="hideFeed"][data-ft-page="home"] ytd-browse[page-subtype="home"] #contents,
+html[data-ft-home="hideFeed"][data-ft-page="home"] ytm-browse ytm-rich-grid-renderer,
+html[data-ft-home="hideFeed"][data-ft-page="home"] ytm-browse ytm-section-list-renderer,
+html[data-ft-home="hideFeed"][data-ft-page="home"] ytm-browse .rich-grid-renderer { display: none !important; }
+
+/* ---------- Search ---------- */
+html[data-ft-search-hide-shelves][data-ft-page="search"] ytd-search ytd-shelf-renderer,
+html[data-ft-search-hide-shelves][data-ft-page="search"] ytd-search ytd-horizontal-card-list-renderer,
+html[data-ft-search-hide-shelves][data-ft-page="search"] ytd-search ytd-item-section-renderer:has(> #contents > ytd-shelf-renderer:only-child),
+html[data-ft-search-hide-shelves][data-ft-page="search"] ytd-search grid-shelf-view-model,
+html[data-ft-search-hide-shelves][data-ft-page="search"] ytm-search ytm-shelf-renderer,
+html[data-ft-search-hide-shelves][data-ft-page="search"] ytm-search ytm-horizontal-card-list-renderer,
+html[data-ft-search-hide-shelves][data-ft-page="search"] ytm-search ytm-item-section-renderer:has(> * > ytm-shelf-renderer:only-child) { display: none !important; }
+
+html[data-ft-search-hide-channels][data-ft-page="search"] ytd-search ytd-channel-renderer,
+html[data-ft-search-hide-channels][data-ft-page="search"] ytm-search ytm-compact-channel-renderer { display: none !important; }
+
+html[data-ft-search-hide-playlists][data-ft-page="search"] ytd-search ytd-playlist-renderer,
+html[data-ft-search-hide-playlists][data-ft-page="search"] ytd-search ytd-radio-renderer,
+html[data-ft-search-hide-playlists][data-ft-page="search"] ytd-search yt-lockup-view-model:has(a[href*="list="]),
+html[data-ft-search-hide-playlists][data-ft-page="search"] ytm-search ytm-compact-playlist-renderer,
+html[data-ft-search-hide-playlists][data-ft-page="search"] ytm-search ytm-compact-radio-renderer { display: none !important; }
+
+/* ---------- Watch page ---------- */
+html[data-ft-hide-related] ytd-watch-flexy #secondary #related,
+html[data-ft-hide-related] ytd-watch-next-secondary-results-renderer,
+html[data-ft-hide-related] ytd-watch-flexy[flexy] #secondary:not(:has(ytd-playlist-panel-renderer:not([hidden]))),
+html[data-ft-hide-related] ytm-item-section-renderer[section-identifier="related-items"],
+html[data-ft-hide-related] ytm-single-column-watch-next-results-renderer .related-items-container,
+html[data-ft-hide-related] ytm-watch ytm-item-section-renderer[data-ft-related],
+html[data-ft-hide-related] ytm-watch-next-secondary-results-renderer { display: none !important; }
+
+html[data-ft-hide-comments] ytd-comments#comments,
+html[data-ft-hide-comments] #comment-teaser,
+html[data-ft-hide-comments] ytd-watch-flexy ytd-comments,
+html[data-ft-hide-comments] ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-comments-section"],
+html[data-ft-hide-comments] ytm-comment-section-renderer,
+html[data-ft-hide-comments] ytm-item-section-renderer:has(> lazy-list > yt-video-metadata-carousel-view-model),
+html[data-ft-hide-comments] ytm-item-section-renderer:has(comments-entry-point-teaser-view-model),
+html[data-ft-hide-comments] yt-video-metadata-carousel-view-model:has(comments-entry-point-teaser-view-model),
+html[data-ft-hide-comments][data-ft-page="watch"] .ytVideoMetadataCarouselViewModelHost,
+html[data-ft-hide-comments] comments-entry-point-teaser-view-model,
+html[data-ft-hide-comments] ytm-item-section-renderer[section-identifier="comments-entry-point"],
+html[data-ft-hide-comments] ytm-item-section-renderer[section-identifier="comment-item-section"],
+html[data-ft-hide-comments] ytm-comments-entry-point-header-renderer,
+html[data-ft-hide-comments] ytm-engagement-panel[target-id="engagement-panel-comments-section"],
+html[data-ft-hide-comments] ytm-reel-player-overlay-renderer .comment-button { display: none !important; }
+
+html[data-ft-hide-end-screens] .ytp-ce-element,
+html[data-ft-hide-end-screens] .ytp-ce-covering-overlay,
+html[data-ft-hide-end-screens] .ytp-endscreen-content,
+html[data-ft-hide-end-screens] .ytp-endscreen-previous,
+html[data-ft-hide-end-screens] .ytp-endscreen-next,
+html[data-ft-hide-end-screens] .html5-endscreen,
+html[data-ft-hide-end-screens] .ytp-suggestion-set,
+html[data-ft-hide-end-screens] .ytp-autonav-endscreen-countdown-container,
+html[data-ft-hide-end-screens] .ytp-autonav-endscreen-countdown-overlay,
+html[data-ft-hide-end-screens] ytm-endscreen,
+html[data-ft-hide-end-screens] .ytm-endscreen,
+html[data-ft-hide-end-screens] .endscreen-video-renderer { display: none !important; }
+
+html[data-ft-hide-live-chat] ytd-watch-flexy #chat,
+html[data-ft-hide-live-chat] ytd-live-chat-frame,
+html[data-ft-hide-live-chat] #chat-container,
+html[data-ft-hide-live-chat] ytd-watch-flexy #panels-full-bleed-container,
+html[data-ft-hide-live-chat] ytm-engagement-panel[target-id="engagement-panel-live-chat"],
+html[data-ft-hide-live-chat] ytm-live-chat-frame-renderer { display: none !important; }
+
+html[data-ft-hide-description] ytd-watch-metadata #description,
+html[data-ft-hide-description] ytd-watch-metadata #bottom-row,
+html[data-ft-hide-description] ytd-watch-flexy #description,
+html[data-ft-hide-description] ytd-expander#description,
+html[data-ft-hide-description] ytm-slim-video-metadata-renderer .slim-video-description,
+html[data-ft-hide-description] ytm-slim-video-information-renderer .slim-video-information-show-more,
+html[data-ft-hide-description] ytm-slim-video-information-renderer .slim-video-information-subtitle-container,
+html[data-ft-hide-description] ytm-engagement-panel[target-id="engagement-panel-structured-description"],
+html[data-ft-hide-description] ytm-slim-video-metadata-section-renderer button[aria-label*="escription"] { display: none !important; }
+
+html[data-ft-hide-info-cards] .ytp-cards-button,
+html[data-ft-hide-info-cards] .ytp-cards-teaser,
+html[data-ft-hide-info-cards] .iv-branding,
+html[data-ft-hide-info-cards] .ytp-paid-content-overlay,
+html[data-ft-hide-info-cards] .ytp-ce-element.ytp-ce-channel { display: none !important; }
+
+html[data-ft-hide-merch] ytd-merch-shelf-renderer,
+html[data-ft-hide-merch] ytd-watch-flexy ytd-ticket-shelf-renderer,
+html[data-ft-hide-merch] ytd-watch-flexy ytd-offers-shelf-renderer,
+html[data-ft-hide-merch] ytd-watch-flexy #merch-shelf,
+html[data-ft-hide-merch] ytd-watch-flexy #offer-module,
+html[data-ft-hide-merch] ytd-watch-flexy ytd-donation-shelf-renderer,
+html[data-ft-hide-merch] ytd-watch-flexy ytd-clarification-box-renderer,
+html[data-ft-hide-merch] ytd-watch-flexy ytd-info-panel-content-renderer,
+html[data-ft-hide-merch] ytm-merch-shelf-renderer,
+html[data-ft-hide-merch] ytm-item-section-renderer:has(ytm-merch-shelf-renderer) { display: none !important; }
+
+html[data-ft-hide-playlist-panel] ytd-watch-flexy ytd-playlist-panel-renderer#playlist,
+html[data-ft-hide-playlist-panel] ytm-playlist-panel-renderer { display: none !important; }
+
+/* ---------- Channel ---------- */
+html[data-ft-channel-hide-featured][data-ft-page="channel"] ytd-channel-video-player-renderer,
+html[data-ft-channel-hide-featured][data-ft-page="channel"] ytd-item-section-renderer:has(ytd-channel-video-player-renderer),
+html[data-ft-channel-hide-featured][data-ft-page="channel"] ytm-channel-video-player-renderer,
+html[data-ft-channel-hide-featured][data-ft-page="channel"] ytm-item-section-renderer:has(ytm-channel-video-player-renderer) { display: none !important; }
+
+/* ---------- Content filters (set by JS) ---------- */
+[data-ft-hidden] { display: none !important; }
+
+/* ---------- Block / delay overlays ---------- */
+html[data-ft-blocked] body { visibility: hidden !important; overflow: hidden !important; }
+html[data-ft-blocked] body > #ft-overlay,
+html[data-ft-delaying] body > #ft-overlay { visibility: visible !important; }
+
+#ft-overlay {
+  position: fixed; inset: 0; z-index: 2147483647;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 14px; padding: 32px; box-sizing: border-box; text-align: center;
+  background: #0f0f0f; color: #f1f1f1;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+#ft-overlay .ft-badge {
+  width: 64px; height: 64px; border-radius: 18px; background: #ff3b30;
+  display: flex; align-items: center; justify-content: center; margin-bottom: 6px;
+}
+#ft-overlay .ft-badge svg { width: 34px; height: 34px; }
+#ft-overlay h1 { font-size: 24px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }
+#ft-overlay p { font-size: 15px; line-height: 1.5; margin: 0; color: #aaa; max-width: 420px; }
+#ft-overlay .ft-timer { font-size: 44px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+#ft-overlay button {
+  margin-top: 8px; padding: 12px 22px; border: 0; border-radius: 999px;
+  background: #272727; color: #f1f1f1; font-size: 15px; font-weight: 600; cursor: pointer;
+}
+#ft-overlay button:active { background: #3a3a3a; }
